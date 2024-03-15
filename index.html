@@ -1,0 +1,115 @@
+<!doctype html>
+<head>
+ <style>
+ body{
+	background-color: #fff;
+	font-family:'Candara';
+}
+.box{   
+	background-color: #fff;
+	font-family:'Candara';
+	align-items: center;
+        margin-left: 30%;
+
+}
+ .inline{
+	background: #d1d1d1;
+        box-shadow:  20px 20px 60px #8c8c8c,/*outset*/
+             -20px -20px 60px #ffffff;/*inset*/
+	height:50;
+	width:50%;
+	border-radius:10px;
+        padding: 1%;
+	font-size:11px;
+	margin-left:1%;
+}
+.internal{
+	background: #d1d1d1;
+        box-shadow:  20px 20px 60px #8c8c8c,/*outset*/
+             -20px -20px 60px #ffffff;/*inset*/	
+	height:50%;
+	width: 50%;
+	border-radius:10px;
+        padding: 1%;
+	font-size:11px;
+	margin-left:1%;
+}
+.external{
+	background: #d1d1d1;
+        box-shadow:  20px 20px 60px #8c8c8c,/*outset*/
+             -20px -20px 60px #ffffff;/*inset*/
+	height:50%;
+	width:50%;
+	border-radius:10px;
+        padding: 1%;
+	font-size:11px;
+	margin-left:1%;
+}
+ </style>
+</head>
+<body>
+<div class="box">
+ <div class="inline">
+<h2 align="center">Inline CSS</h2>
+<p><code>
+&lt;!Doctype html&gt;<br>
+ &lt;head&gt;<br>
+ &lt;/head&gt;<br>
+ &lt;body&gt;<br>
+  <b>&lt;h1 style="color:blue;text-align:center;font-family:'consolas';"&gt;Inline CSS&lt;/h1&gt;</b>  <br>
+ &lt;/body&gt;<br>
+&lt;/html&gt; <br>
+ </code></p>
+<h2>Output : </h2>
+   <h1 style="color:blue;text-align:center;font-family:'consolas';">Inline CSS</h1>  
+</div><br>
+
+ <div class="internal">
+<h2 align="center">Internal CSS</h2>
+<p><code>
+&lt;!Doctype html&gt;<br>
+ &lt;head&gt;<br>
+  &lt;style&gt;<br>
+   <b>h1{<br>
+     color:blue;<br>
+     text-align:center;<br>
+     font-family:'consolas';<br>
+   }</b><br>
+  &lt;/style&gt;<br>
+ &lt;/head&gt;<br>
+ &lt;body&gt;<br>
+  &lt;h1&gt;Internal CSS&lt;/h1&gt;<br>  
+ &lt;/body&gt;<br>
+&lt;/html&gt; 
+ </code></p>
+  <h2>Output : </h2>
+   <h1 style="color:blue;text-align:center;font-family:'consolas';">Innternal CSS</h1>  
+ </div><br>
+
+ <div class="external">
+<h2 align="center">External CSS</h2>
+ <p><code>
+<h4>index.html</h4>
+&lt;!Doctype html&gt;<br>
+ &lt;head&gt;<br>
+ <b>&lt;link rel="stylesheet" href="style.css"&gt;</b><br>
+ &lt;/head&gt;<br>
+ &lt;body&gt;<br>
+  &lt;h1&gt;Internal CSS&lt;/h1&gt;  <br>
+ &lt;/body&gt;<br>
+&lt;/html&gt; <br>
+
+<h4>style.css</h4>
+<b>h1{<br>
+     color:blue;<br>
+     text-align:center;<br>
+     font-family:'consolas';<br>
+}</b>
+ </code></p>
+ <h2>Output : </h2>
+   <h1 style="color:blue;text-align:center;font-family:'consolas';">External CSS</h1>  
+ </div>
+</div>
+</div>
+</body>
+</html>
