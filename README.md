@@ -25,10 +25,7 @@ I am a passionate engineering student and a tech enthusiast with a keen interest
 
 
 ## 📬 Contact Me
-- **Portfolio:** [Your Website Link]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **GitHub:** [Your GitHub Profile]
-- **Email:** [Your Email]
+- **Portfolio:** unkown812.github.io
+- **LinkedIn:** unkown812
+- **GitHub:** unkown812
 
----
-💡 *Feel free to contribute or suggest improvements!* 🚀
